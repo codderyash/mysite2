@@ -1,0 +1,170 @@
+
+h1
+{
+
+  /* if we change body size in % and then change h1 tag means child tag font then final font size will be
+  
+  child tag size+parent tag font  size
+  but  remove this error we use rem
+  px is static its has fixed size
+  */
+
+    /* font-family: 'Edu SA Beginner', cursive; */
+    margin-top: 50px auto 0px auto;
+    /* margin-left: 50px; */
+    font-family: 'Edu SA Beginner', cursive;
+    /* display: block; */
+    /* width: 100px; */
+    /* margin: 0 auto; */
+    font-size: 562.5%; /* 90 px =90/16 *100%*/
+    /* %  instread of we use em 1 em reprent 16 px 5.625em equal to 562.5% 1em means 100%*/
+
+    /* 100% means 16 px fontsize persontage use for if we change chrome fontsize then heading doesnt efffected */
+    /* if text-align not work if add width then use margin auto to centering the element */
+  /* text-decoration-color: #66BFBF;
+   */
+   color: #66BFBF;
+
+    
+}
+h2{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 2.5rem;
+   color: #66BFBF;
+    }
+.bottom-cloud
+{
+
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.skill-row
+{
+    /* margin: 5px;
+     */
+     width: 50%;
+     margin: 100px auto 100px auto;
+     text-align: left;
+     line-height: 2;
+     
+}
+.skill
+{
+    width: 25%;
+    /* height: 25%; */
+    float: left;
+    margin-right: 20px;
+}
+hr{
+    margin: 25px auto;
+       border-style: none;
+       border-top-style: dotted;
+       border-width: 5px;
+       border-color: grey;
+       
+       
+       width: 5%;
+}
+.skills
+{
+    margin-bottom: 200px;
+    /* padding-bottom: 40px; */
+}
+.second-image
+{
+    width: 25%;
+    /* height: 25%; */
+    float: right;
+    /* clear: both; */
+}
+h3{
+    color: #11999E;
+}
+a{
+    text-decoration: none;
+    color: #11999E;
+    display: inline-block;
+    width: 200px;
+}
+.contact-me
+{
+    margin: 5px;
+}
+
+/* this btn class use in css button generator */
+.btn {
+    margin: 20px;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottom-container
+{
+    
+    padding: 40px;
+    margin: 30px 0px 0px 0px;
+    background-color: #66BFBF;
+}
+.credit
+{
+    margin-top: 30px;
+}
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.top-container
+{
+    position: relative;
+    padding-top:100px;
+}
+body
+{
+    margin: 0;
+    background-color: rgb(196 239 239);
+    /* align-items: center; */
+    /* align-content: center; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+p{
+    margin: 0;
+}
+.c1
+{
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.c2
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
